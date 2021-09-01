@@ -9,11 +9,11 @@ const Home = () => {
     <>
       <Head>
         <title>Dashboard Admin</title>
-        <meta property="og:url" content="https://demoadmin.showkhun.co/admin" />
+        <meta property="og:url" content="https://dashbord.showkhun.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Demo Admin Nextjs 10 + Tailwind" />
         <meta property="og:description" content="Nextjs 10 + Tailwind And Preact render" />
-        <meta property="og:image" content="https://demoadmin.showkhun.co/images/admindashboard.png" />
+        <meta property="og:image" content="https://dashbord.showkhun.com/images/admindashboard.png" />
       </Head>
       <DashboardLayout>
         <h3 className="text-gray-700 text-3xl font-medium">Dashboard</h3>

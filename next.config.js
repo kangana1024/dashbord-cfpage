@@ -12,9 +12,9 @@ const configs = {
     path: ''
   },
   webpack: (config, { dev, isServer }) => {
-    if (isServer) {
-      require('./scripts/generate-sitemap')
-    }
+    // if (isServer) {
+    //   require('./scripts/generate-sitemap')
+    // }
 
     if (!dev && !isServer) {
       Object.assign(config.resolve.alias, {
